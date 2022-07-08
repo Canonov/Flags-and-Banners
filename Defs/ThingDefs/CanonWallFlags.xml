@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Wall Banner -->
+  <ThingDef Abstract="True" Name="CanonWallBase" ParentName="BuildingBase">
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <constructEffect>ConstructMetal</constructEffect>
+    <altitudeLayer>Blueprint</altitudeLayer>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <passability>Standable</passability>
+    <pathCost>60</pathCost>
+    <costList>
+        <Steel>55</Steel>
+        <Cloth>15</Cloth>
+    </costList>
+    <statBases>
+        <MaxHitPoints>150</MaxHitPoints>
+        <WorkToBuild>300</WorkToBuild>
+        <Flammability>0.2</Flammability>
+        <!--<MarketValue>38</MarketValue>-->
+        <Mass>17.5</Mass>
+        <Beauty>25</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <designationCategory>Furniture</designationCategory>
+  </ThingDef>
+</Defs>

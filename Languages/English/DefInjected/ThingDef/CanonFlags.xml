@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <!-- BASE UPDATE BANNERS -->
+
+
+  <!-- Banner AA -->
+  <Canon_Banner_PRC.label>Chinese Banner (PRC)</Canon_Banner_PRC.label>
+  <Canon_Banner_PRC.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_PRC.description>
+  <Canon_Banner_PRC_Blueprint.label>Chinese Banner (blueprint)</Canon_Banner_PRC_Blueprint.label>
+  <Canon_Banner_PRC_Blueprint_Install.label>Chinese Banner (blueprint)</Canon_Banner_PRC_Blueprint_Install.label>
+  <Canon_Banner_PRC_Frame.label>Chinese Banner (building)</Canon_Banner_PRC_Frame.label>
+  <Canon_Banner_PRC_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_PRC_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_Texas.label>Texan Banner</Canon_Banner_Texas.label>
+  <Canon_Banner_Texas.description>Shoutout to my boy Ranger Rick</Canon_Banner_Texas.description>
+  <Canon_Banner_Texas_Blueprint.label>Texan Banner (blueprint)</Canon_Banner_Texas_Blueprint.label>
+  <Canon_Banner_Texas_Blueprint_Install.label>Texan Banner (blueprint)</Canon_Banner_Texas_Blueprint_Install.label>
+  <Canon_Banner_Texas_Frame.label>Texan Banner (building)</Canon_Banner_Texas_Frame.label>
+  <Canon_Banner_Texas_Frame.description>Shoutout to my boy Ranger Rick</Canon_Banner_Texas_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_Rus_Imperial_COA.label>Russian Imperial Banner (COA)</Canon_Banner_Rus_Imperial_COA.label>
+  <Canon_Banner_Rus_Imperial_COA.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Rus_Imperial_COA.description>
+  <Canon_Banner_Rus_Imperial_COA_Blueprint.label>Russian Imperial Banner (blueprint)</Canon_Banner_Rus_Imperial_COA_Blueprint.label>
+  <Canon_Banner_Rus_Imperial_COA_Blueprint_Install.label>Russian Imperial Banner (blueprint)</Canon_Banner_Rus_Imperial_COA_Blueprint_Install.label>
+  <Canon_Banner_Rus_Imperial_COA_Frame.label>Russian Imperial Banner (building)</Canon_Banner_Rus_Imperial_COA_Frame.label>
+  <Canon_Banner_Rus_Imperial_COA_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Rus_Imperial_COA_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_German.label>German Banner</Canon_Banner_.label>
+  <Canon_Banner_German.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_German.description>
+  <Canon_Banner_German_Blueprint.label>German Banner (blueprint)</Canon_Banner_German_Blueprint.label>
+  <Canon_Banner_German_Blueprint_Install.label>German Banner (blueprint)</Canon_Banner_German_Blueprint_Install.label>
+  <Canon_Banner_German_Frame.label>German Banner (building)</Canon_Banner_German_Frame.label>
+  <Canon_Banner_German_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_German_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_German_COA.label>German Banner (COA)</Canon_Banner_.label>
+  <Canon_Banner_German_COA.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_German_COA.description>
+  <Canon_Banner_German_COA_Blueprint.label>German Banner (blueprint)</Canon_Banner_German_COA_Blueprint.label>
+  <Canon_Banner_German_COA_Blueprint_Install.label>German Banner (blueprint)</Canon_Banner_German_COA_Blueprint_Install.label>
+  <Canon_Banner_German_COA_Frame.label>German Banner (building)</Canon_Banner_German_COA_Frame.label>
+  <Canon_Banner_German_COA_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_German_COA_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_East_Germany.label>East German Banner</Canon_Banner_East_Germany.label>
+  <Canon_Banner_East_Germany.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_East_Germany.description>
+  <Canon_Banner_East_Germany_Blueprint.label>East German Banner (blueprint)</Canon_Banner_East_Germany_Blueprint.label>
+  <Canon_Banner_East_Germany_Blueprint_Install.label>East German Banner (blueprint)</Canon_Banner_East_Germany_Blueprint_Install.label>
+  <Canon_Banner_East_Germany_Frame.label>East German Banner (building)</Canon_Banner_East_Germany_Frame.label>
+  <Canon_Banner_East_Germany_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_East_Germany_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_German_Empire.label>German Imperial Banner</Canon_Banner_German_Empire.label>
+  <Canon_Banner_German_Empire.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_German_Empire.description>
+  <Canon_Banner_German_Empire_Blueprint.label>German Imperial Banner (blueprint)</Canon_Banner_German_Empire_Blueprint.label>
+  <Canon_Banner_German_Empire_Blueprint_Install.label>German Imperial Banner (blueprint)</Canon_Banner_German_Empire_Blueprint_Install.label>
+  <Canon_Banner_German_Empire_Frame.label>German Imperial Banner (building)</Canon_Banner_German_Empire_Frame.label>
+  <Canon_Banner_German_Empire_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_German_Empire_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_EU.label>European Banner</Canon_Banner_EU.label>
+  <Canon_Banner_EU.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_EU.description>
+  <Canon_Banner_EU_Blueprint.label>European Banner (blueprint)</Canon_Banner__Blueprint.label>
+  <Canon_Banner_EU_Blueprint_Install.label>European Banner (blueprint)</Canon_Banner_EU_Blueprint_Install.label>
+  <Canon_Banner_EU_Frame.label>European Banner (building)</Canon_Banner_EU_Frame.label>
+  <Canon_Banner_EU_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_EU_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_Pirate.label>Pirate Banner</Canon_Banner_Pirate.label>
+  <Canon_Banner_Pirate.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Pirate.description>
+  <Canon_Banner_Pirate_Blueprint.label>Pirate Banner (blueprint)</Canon_Banner_Pirate_Blueprint.label>
+  <Canon_Banner_Pirate_Blueprint_Install.label>Pirate Banner (blueprint)</Canon_Banner_Pirate_Blueprint_Install.label>
+  <Canon_Banner_Pirate_Frame.label>Pirate Banner (building)</Canon_Banner_Pirate_Frame.label>
+  <Canon_Banner_Pirate_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Pirate_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_Poland.label>Polish Banner</Canon_Banner_Poland.label>
+  <Canon_Banner_Poland.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Poland.description>
+  <Canon_Banner_Poland_Blueprint.label>Polish Banner (blueprint)</Canon_Banner__Blueprint.label>
+  <Canon_Banner_Poland_Blueprint_Install.label>Polish Banner (blueprint)</Canon_Banner_Poland_Blueprint_Install.label>
+  <Canon_Banner_Poland_Frame.label>Polish Banner (building)</Canon_Banner_Poland_Frame.label>
+  <Canon_Banner_Poland_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Poland_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_Poland_Alt.label>Polish Banner (ALT)</Canon_Banner_Poland_Alt.label>
+  <Canon_Banner_Poland_Alt.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Poland_Alt.description>
+  <Canon_Banner_Poland_Alt_Blueprint.label>Polish Banner (blueprint)</Canon_Banner__Blueprint.label>
+  <Canon_Banner_Poland_Alt_Blueprint_Install.label>Polish Banner (blueprint)</Canon_Banner_Poland_Alt_Blueprint_Install.label>
+  <Canon_Banner_Poland_Alt_Frame.label>Polish Banner (building)</Canon_Banner_Poland_Alt_Frame.label>
+  <Canon_Banner_Poland_Alt_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Poland_Alt_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_Reman.label>Reman Empire Banner</Canon_Banner_.label>
+  <Canon_Banner_Reman.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Reman.description>
+  <Canon_Banner_Reman_Blueprint.label>Reman Banner (blueprint)</Canon_Banner_Reman_Blueprint.label>
+  <Canon_Banner_Reman_Blueprint_Install.label>Reman Banner (blueprint)</Canon_Banner_Reman_Blueprint_Install.label>
+  <Canon_Banner_Reman_Frame.label>Reman Banner (building)</Canon_Banner_Reman_Frame.label>
+  <Canon_Banner_Reman_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Reman_Frame.description>
+
+  <!-- Banner AA -->
+  <Canon_Banner_Tamriel.label>Tamrielic Banner</Canon_Banner_.label>
+  <Canon_Banner_Tamriel.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Tamriel.description>
+  <Canon_Banner_Tamriel_Blueprint.label>Tamrielic Banner (blueprint)</Canon_Banner_Tamriel_Blueprint.label>
+  <Canon_Banner_Tamriel_Blueprint_Install.label>Tamrielic Banner (blueprint)</Canon_Banner_Tamriel_Blueprint_Install.label>
+  <Canon_Banner_Tamriel_Frame.label>Tamrielic Banner (building)</Canon_Banner_Tamriel_Frame.label>
+  <Canon_Banner_Tamriel_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Tamriel_Frame.description>
+  
+
+
+   <!-- Banner AA -->
+  <Canon_Banner_Byzantine.label>Byzantine Banner (Red)</Canon_Banner_Byzantine.label>
+  <Canon_Banner_Byzantine.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Byzantine.description>
+  <Canon_Banner_Byzantine_Blueprint.label>Byzantine Banner (blueprint)</Canon_Banner_Byzantine_Blueprint.label>
+  <Canon_Banner_Byzantine_Blueprint_Install.label>Byzantine Banner (blueprint)</Canon_Banner_Byzantine_Blueprint_Install.label>
+  <Canon_Banner_Byzantine_Frame.label>Byzantine Banner (building)</Canon_Banner_Byzantine_Frame.label>
+  <Canon_Banner_Byzantine_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Byzantine_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Byzantine_ALT.label>Byzantine Banner (Purple)</Canon_Banner_Byzantine_ALT.label>
+  <Canon_Banner_Byzantine_ALT.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Byzantine_ALT.description>
+  <Canon_Banner_Byzantine_ALT_Blueprint.label>Byzantine Banner (blueprint)</Canon_Banner_Byzantine_ALT_Blueprint.label>
+  <Canon_Banner_Byzantine_ALT_Blueprint_Install.label>Byzantine Banner (blueprint)</Canon_Banner_Byzantine_ALT_Blueprint_Install.label>
+  <Canon_Banner_Byzantine_ALT_Frame.label>Byzantine Banner (building)</Canon_Banner_Byzantine_ALT_Frame.label>
+  <Canon_Banner_Byzantine_ALT_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Byzantine_ALT_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_StarsnBars.label>The Stars and Bars Banner</Canon_Banner_StarsnBars.label>
+  <Canon_Banner_StarsnBars.description>States Rights?, a states right to what?</Canon_Banner_StarsnBars.description>
+  <Canon_Banner_StarsnBars_Blueprint.label>The Stars and Bars Banner (blueprint)</Canon_Banner_StarsnBars_Blueprint.label>
+  <Canon_Banner_StarsnBars_Blueprint_Install.label>The Stars and Bars Banner (blueprint)</Canon_Banner_StarsnBars_Blueprint_Install.label>
+  <Canon_Banner_StarsnBars_Frame.label>The Stars and Bars Banner (building)</Canon_Banner_StarsnBars_Frame.label>
+  <Canon_Banner_StarsnBars_Frame.description>States Rights?, a states right to what?</Canon_Banner_StarsnBars_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Japan.label>Japanese Banner</Canon_Banner_Japan.label>
+  <Canon_Banner_Japan.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Japan.description>
+  <Canon_Banner_Japan_Blueprint.label>Japanese Banner (blueprint)</Canon_Banner_Japan_Blueprint.label>
+  <Canon_Banner_Japan_Blueprint_Install.label>Japanese Banner (blueprint)</Canon_Banner_Japan_Blueprint_Install.label>
+  <Canon_Banner_Japan_Frame.label>Japanese Banner (building)</Canon_Banner_Japan_Frame.label>
+  <Canon_Banner_Japan_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Japan_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Britannia.label>Britannian Banner</Canon_Banner_Britannia.label>
+  <Canon_Banner_Britannia.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Britannia.description>
+  <Canon_Banner_Britannia_Blueprint.label>Britannian Banner (blueprint)</Canon_Banner_Britannia_Blueprint.label>
+  <Canon_Banner_Britannia_Blueprint_Install.label>Britannian Banner (blueprint)</Canon_Banner_Britannia_Blueprint_Install.label>
+  <Canon_Banner_Britannia_Frame.label>Britannian Banner (building)</Canon_Banner_Britannia_Frame.label>
+  <Canon_Banner_Britannia_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Britannia_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Aldmeri.label>Aldmeri Banner</Canon_Banner_Aldmeri.label>
+  <Canon_Banner_Aldmeri.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Aldmeri.description>
+  <Canon_Banner_Aldmeri_Blueprint.label>Aldmeri Banner (blueprint)</Canon_Banner_Aldmeri_Blueprint.label>
+  <Canon_Banner_Aldmeri_Blueprint_Install.label>Aldmeri Banner (blueprint)</Canon_Banner_Aldmeri_Blueprint_Install.label>
+  <Canon_Banner_Aldmeri_Frame.label>Aldmeri Banner (building)</Canon_Banner_Aldmeri_Frame.label>
+  <Canon_Banner_Aldmeri_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Aldmeri_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_UN.label>UN Banner</Canon_Banner_UN.label>
+  <Canon_Banner_UN.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_UN.description>
+  <Canon_Banner_UN_Blueprint.label>UN Banner (blueprint)</Canon_Banner_UN_Blueprint.label>
+  <Canon_Banner_UN_Blueprint_Install.label>UN Banner (blueprint)</Canon_Banner_UN_Blueprint_Install.label>
+  <Canon_Banner_UN_Frame.label>UN Banner (building)</Canon_Banner_UN_Frame.label>
+  <Canon_Banner_UN_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_UN_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Eldia.label>Eldian Banner</Canon_Banner_Eldia.label>
+  <Canon_Banner_Eldia.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Eldia.description>
+  <Canon_Banner_Eldia_Blueprint.label>Eldian Banner (blueprint)</Canon_Banner_Eldia_Blueprint.label>
+  <Canon_Banner_Eldia_Blueprint_Install.label>Eldian Banner (blueprint)</Canon_Banner_Eldia_Blueprint_Install.label>
+  <Canon_Banner_Eldia_Frame.label>Eldian Banner (building)</Canon_Banner_Eldia_Frame.label>
+  <Canon_Banner_Eldia_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Eldia_Frame.description>
+
+     <!-- Banner AA -->
+  <Canon_Banner_Rus_Imperial_Early.label>Russian Imperial Banner (1858-1896)</Canon_Banner_Rus_Imperial_Early.label>
+  <Canon_Banner_Rus_Imperial_Early.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Rus_Imperial_Early.description>
+  <Canon_Banner_Rus_Imperial_Early_Blueprint.label>Russian Imperial Banner (blueprint)</Canon_Banner_Rus_Imperial_Early_Blueprint.label>
+  <Canon_Banner_Rus_Imperial_Early_Blueprint_Install.label>Russian Imperial Banner (blueprint)</Canon_Banner_Rus_Imperial_Early_Blueprint_Install.label>
+  <Canon_Banner_Rus_Imperial_Early_Frame.label>Russian Imperial Banner (building)</Canon_Banner_Rus_Imperial_Early_Frame.label>
+  <Canon_Banner_Rus_Imperial_Early_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Rus_Imperial_Early_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Anprim.label>Anarcho-Primitivist Banner</Canon_Banner_Anprim.label>
+  <Canon_Banner_Anprim.description>Reject Modernity, Embrace Monke.</Canon_Banner_Anprim.description>
+  <Canon_Banner_Anprim_Blueprint.label>Anarcho-Primitivist Banner (blueprint)</Canon_Banner_Anprim_Blueprint.label>
+  <Canon_Banner_Anprim_Blueprint_Install.label>Anarcho-Primitivist Banner (blueprint)</Canon_Banner_Anprim_Blueprint_Install.label>
+  <Canon_Banner_Anprim_Frame.label>Anarcho-Primitivist Banner (building)</Canon_Banner_Anprim_Frame.label>
+  <Canon_Banner_Anprim_Frame.description>Reject Modernity, Embrace Monke.</Canon_Banner_Anprim_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Ancap.label>Anarcho-Capitalist Banner</Canon_Banner_Ancap.label>
+  <Canon_Banner_Ancap.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Ancap.description>
+  <Canon_Banner_Ancap_Blueprint.label>Anarcho-Capitalist Banner (blueprint)</Canon_Banner_Ancap_Blueprint.label>
+  <Canon_Banner_Ancap_Blueprint_Install.label>Anarcho-Capitalist Banner (blueprint)</Canon_Banner_Ancap_Blueprint_Install.label>
+  <Canon_Banner_Ancap_Frame.label>Anarcho-Capitalist Banner (building)</Canon_Banner_Ancap_Frame.label>
+  <Canon_Banner_Ancap_Frame.description>A high Banner, symbol of your ambitions and sovereignty.</Canon_Banner_Ancap_Frame.description>
+  
+   <!-- Banner AA -->
+  <Canon_Banner_Anarchy.label>Anarchist Banner</Canon_Banner_Anarchy.label>
+  <Canon_Banner_Anarchy.description>A high Banner, symbol of your ambitions and sovereignty. or lack of it.</Canon_Banner_Anarchy.description>
+  <Canon_Banner_Anarchy_Blueprint.label>Anarchist Banner (blueprint)</Canon_Banner_Anarchy_Blueprint.label>
+  <Canon_Banner_Anarchy_Blueprint_Install.label>Anarchist Banner (blueprint)</Canon_Banner_Anarchy_Blueprint_Install.label>
+  <Canon_Banner_Anarchy_Frame.label>Anarchist Banner (building)</Canon_Banner_Anarchy_Frame.label>
+  <Canon_Banner_Anarchy_Frame.description>A high Banner, symbol of your ambitions and sovereignty, or lack of it.</Canon_Banner_Anarchy_Frame.description>
+  
+  
+  
+  
+  
+   <!-- BASE UPDATE FLAGS -->
+  
+  
+   <!-- Flag AB -->
+  <Canon_Flag_Anprim.label>Anarcho-Primitivist Flag</Canon_Flag_Anprim.label>
+  <Canon_Flag_Anprim.description>Reject Modernity, Embrace Monke.</Canon_Flag_Anprim.description>
+  <Canon_Flag_Anprim_Blueprint.label>Anarcho-Primitivist Flag (blueprint)</Canon_Flag_Anprim_Blueprint.label>
+  <Canon_Flag_Anprim_Blueprint_Install.label>Anarcho-Primitivist Flag (blueprint)</Canon_Flag_Anprim_Blueprint_Install.label>
+  <Canon_Flag_Anprim_Frame.label>Anarcho-Primitivist Flag (building)</Canon_Flag_Anprim_Frame.label>
+  <Canon_Flag_Anprim_Frame.description>Reject Modernity, Embrace Monke.</Canon_Flag_Anprim_Frame.description>
+  
+   <!-- Flag AB -->
+  <Canon_Flag_Ancap.label>Anarcho-Capitalist Flag</Canon_Flag_Ancap.label>
+  <Canon_Flag_Ancap.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Ancap.description>
+  <Canon_Flag_Ancap_Blueprint.label>Anarcho-Capitalist Flag (blueprint)</Canon_Flag_Ancap_Blueprint.label>
+  <Canon_Flag_Ancap_Blueprint_Install.label>Anarcho-Capitalist Flag (blueprint)</Canon_Flag_Ancap_Blueprint_Install.label>
+  <Canon_Flag_Ancap_Frame.label>Anarcho-Capitalist Flag (building)</Canon_Flag_Ancap_Frame.label>
+  <Canon_Flag_Ancap_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Ancap_Frame.description>
+  
+   <!-- Flag AB -->
+  <Canon_Flag_Anarchy.label>Anarchist Flag</Canon_Flag_Anarchy.label>
+  <Canon_Flag_Anarchy.description>A high Flag, symbol of your ambitions and sovereignty. or lack of it.</Canon_Flag_Anarchy.description>
+  <Canon_Flag_Anarchy_Blueprint.label>Anarchist Flag (blueprint)</Canon_Flag_Anarchy_Blueprint.label>
+  <Canon_Flag_Anarchy_Blueprint_Install.label>Anarchist Flag (blueprint)</Canon_Flag_Anarchy_Blueprint_Install.label>
+  <Canon_Flag_Anarchy_Frame.label>Anarchist Flag (building)</Canon_Flag_Anarchy_Frame.label>
+  <Canon_Flag_Anarchy_Frame.description>A high Flag, symbol of your ambitions and sovereignty, or lack of it.</Canon_Flag_Anarchy_Frame
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Poland.label>Polish Flag</Canon_Flag_Poland.label>
+  <Canon_Flag_Poland.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Poland.description>
+  <Canon_Flag_Poland_Blueprint.label>Polish Flag (blueprint)</Canon_Flag_Poland_Blueprint.label>
+  <Canon_Flag_Poland_Blueprint_Install.label>Polish Flag (blueprint)</Canon_Flag_Poland_Blueprint_Install.label>
+  <Canon_Flag_Poland_Frame.label>Polish Flag (building)</Canon_Flag_Poland_Frame.label>
+  <Canon_Flag_Poland_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Poland_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Rus_Imperial_COA.label>Russian Imperial Flag (COA)</Canon_Flag_Rus_Imperial_COA.label>
+  <Canon_Flag_Rus_Imperial_COA.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Rus_Imperial_COA.description>
+  <Canon_Flag_Rus_Imperial_COA_Blueprint.label>Russian Imperial Flag (blueprint)</Canon_Flag_Rus_Imperial_COA_Blueprint.label>
+  <Canon_Flag_Rus_Imperial_COA_Blueprint_Install.label>Russian Imperial Flag (blueprint)</Canon_Flag_Rus_Imperial_COA_Blueprint_Install.label>
+  <Canon_Flag_Rus_Imperial_COA_Frame.label>Russian Imperial Flag (building)</Canon_Flag_Rus_Imperial_COA_Frame.label>
+  <Canon_Flag_Rus_Imperial_COA_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Rus_Imperial_COA_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Rus_Imperial_Late.label>Russian Imperial Flag (1914-1917)</Canon_Flag_Rus_Imperial_Late.label>
+  <Canon_Flag_Rus_Imperial_Late.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Rus_Imperial_Late.description>
+  <Canon_Flag_Rus_Imperial_Late_Blueprint.label>Russian Imperial Banner (blueprint)</Canon_Flag_Rus_Imperial_Late_Blueprint.label>
+  <Canon_Flag_Rus_Imperial_Late_Blueprint_Install.label>Russian Imperial Flag (blueprint)</Canon_Flag_Rus_Imperial_Late_Blueprint_Install.label>
+  <Canon_Flag_Rus_Imperial_Late_Frame.label>Russian Imperial Flag (building)</Canon_Flag_Rus_Imperial_Late_Frame.label>
+  <Canon_Flag_Rus_Imperial_Late_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Rus_Imperial_Late_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Rus_Imperial_Early.label>Russian Imperial Flag (1858-1896)</Canon_Flag_Rus_Imperial_Early.label>
+  <Canon_Flag_Rus_Imperial_Early.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Rus_Imperial_Early.description>
+  <Canon_Flag_Rus_Imperial_Early_Blueprint.label>Russian Imperial Banner (blueprint)</Canon_Flag_Rus_Imperial_Early_Blueprint.label>
+  <Canon_Flag_Rus_Imperial_Early_Blueprint_Install.label>Russian Imperial Flag (blueprint)</Canon_Flag_Rus_Imperial_Early_Blueprint_Install.label>
+  <Canon_Flag_Rus_Imperial_Early_Frame.label>Russian Imperial Flag (building)</Canon_Flag_Rus_Imperial_Early_Frame.label>
+  <Canon_Flag_Rus_Imperial_Early_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Rus_Imperial_Early_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_PRC.label>Chinese Flag (PRC)</Canon_Flag_PRC.label>
+  <Canon_Flag_PRC.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_PRC.description>
+  <Canon_Flag_PRC_Blueprint.label>Chinese Banner (blueprint)</Canon_Flag_PRC_Blueprint.label>
+  <Canon_Flag_PRC_Blueprint_Install.label>Chinese Flag (blueprint)</Canon_Flag_PRC_Blueprint_Install.label>
+  <Canon_Flag_PRC_Frame.label>Chinese Flag (building)</Canon_Flag_PRC_Frame.label>
+  <Canon_Flag_PRC_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_PRC_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_EU.label>European Union Flag</Canon_Flag_EU.label>
+  <Canon_Flag_EU.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_EU.description>
+  <Canon_Flag_EU_Blueprint.label>European Banner (blueprint)</Canon_Flag_EU_Blueprint.label>
+  <Canon_Flag_EU_Blueprint_Install.label>European Flag (blueprint)</Canon_Flag_EU_Blueprint_Install.label>
+  <Canon_Flag_EU_Frame.label>European Flag (building)</Canon_Flag_EU_Frame.label>
+  <Canon_Flag_EU_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_EU_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Reman.label>Reman Empire Flag</Canon_Flag_Reman.label>
+  <Canon_Flag_Reman.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Reman.description>
+  <Canon_Flag_Reman_Blueprint.label>Reman Banner (blueprint)</Canon_Flag_Reman_Blueprint.label>
+  <Canon_Flag_Reman_Blueprint_Install.label>Reman Flag (blueprint)</Canon_Flag_Reman_Blueprint_Install.label>
+  <Canon_Flag_Reman_Frame.label>Reman Flag (building)</Canon_Flag_Reman_Frame.label>
+  <Canon_Flag_Reman_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Reman_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Tamriel.label>Tamrielic Flag</Canon_Flag_Tamriel.label>
+  <Canon_Flag_Tamriel.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Tamriel.description>
+  <Canon_Flag_Tamriel_Blueprint.label>Tamrielic Banner (blueprint)</Canon_Flag_Tamriel_Blueprint.label>
+  <Canon_Flag_Tamriel_Blueprint_Install.label>Tamrielic Flag (blueprint)</Canon_Flag_Tamriel_Blueprint_Install.label>
+  <Canon_Flag_Tamriel_Frame.label>Tamrielic Flag (building)</Canon_Flag_Tamriel_Frame.label>
+  <Canon_Flag_Tamriel_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Tamriel_Frame.description>
+ 
+    <!-- Banner AB -->
+  <Canon_Flag_Germany.label>German Flag</Canon_Flag_Germany.label>
+  <Canon_Flag_Germany.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Germany.description>
+  <Canon_Flag_Germany_Blueprint.label>German Banner (blueprint)</Canon_Flag_Germany_Blueprint.label>
+  <Canon_Flag_Germany_Blueprint_Install.label>German Flag (blueprint)</Canon_Flag_Germany_Blueprint_Install.label>
+  <Canon_Flag_Germany_Frame.label>German Flag (building)</Canon_Flag_Germany_Frame.label>
+  <Canon_Flag_Germany_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Germany_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Germany_COA.label>German Flag (COA)</Canon_Flag_Germany_COA.label>
+  <Canon_Flag_Germany_COA.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Germany_COA.description>
+  <Canon_Flag_Germany_COA_Blueprint.label>German Banner (blueprint)</Canon_Flag_Germany_COA_Blueprint.label>
+  <Canon_Flag_Germany_COA_Blueprint_Install.label>German Flag (blueprint)</Canon_Flag_Germany_COA_Blueprint_Install.label>
+  <Canon_Flag_Germany_COA_Frame.label>German Flag (building)</Canon_Flag_Germany_COA_Frame.label>
+  <Canon_Flag_Germany_COA_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Germany_COA_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_German_Empire.label>German Imperial Flag (Civil)</Canon_Flag_German_Empire.label>
+  <Canon_Flag_German_Empire.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_German_Empire.description>
+  <Canon_Flag_German_Empire_Blueprint.label>German Banner (blueprint)</Canon_Flag_German_Empire_Blueprint.label>
+  <Canon_Flag_German_Empire_Blueprint_Install.label>German Flag (blueprint)</Canon_Flag_German_Empire_Blueprint_Install.label>
+  <Canon_Flag_German_Empire_Frame.label>German Imperial Flag (building)</Canon_Flag_German_Empire_Frame.label>
+  <Canon_Flag_German_Empire_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_German_Empire_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_East_Germany.label>East German Flag</Canon_Flag_East_Germany.label>
+  <Canon_Flag_East_Germany.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_East_Germany.description>
+  <Canon_Flag_East_Germany_Blueprint.label>East German Banner (blueprint)</Canon_Flag_East_Germany_Blueprint.label>
+  <Canon_Flag_East_Germany_Blueprint_Install.label>East German Flag (blueprint)</Canon_Flag_East_Germany_Blueprint_Install.label>
+  <Canon_Flag_East_Germany_Frame.label>East German Flag (building)</Canon_Flag_East_Germany_Frame.label>
+  <Canon_Flag_East_Germany_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_East_Germany_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Pirate.label>Pirate Flag</Canon_Flag_Pirate.label>
+  <Canon_Flag_Pirate.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Pirate.description>
+  <Canon_Flag_Pirate_Blueprint.label>Pirate Flag (blueprint)</Canon_Flag_Pirate_Blueprint.label>
+  <Canon_Flag_Pirate_Blueprint_Install.label>Pirate Flag (blueprint)</Canon_Flag_Pirate_Blueprint_Install.label>
+  <Canon_Flag_Pirate_Frame.label>Pirate Flag (building)</Canon_Flag_Pirate_Frame.label>
+  <Canon_Flag_Pirate_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Pirate_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_USSR.label>Soviet Flag</Canon_Flag_USSR.label>
+  <Canon_Flag_USSR.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_USSR.description>
+  <Canon_Flag_USSR_Blueprint.label>Soviet Flag (blueprint)</Canon_Flag_USSR_Blueprint.label>
+  <Canon_Flag_USSR_Blueprint_Install.label>Soviet Flag (blueprint)</Canon_Flag_USSR_Blueprint_Install.label>
+  <Canon_Flag_USSR_Frame.label>Soviet Flag (building)</Canon_Flag_USSR_Frame.label>
+  <Canon_Flag_USSR_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_USSR_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Texas.label>Texan Flag</Canon_Flag_Texas.label>
+  <Canon_Flag_Texas.description>Shoutout to Ranger Rick.</Canon_Flag_Texas.description>
+  <Canon_Flag_Texas_Blueprint.label>Texan Flag (blueprint)</Canon_Flag_Texas_Blueprint.label>
+  <Canon_Flag_Texas_Blueprint_Install.label>Texan Flag (blueprint)</Canon_Flag_Texas_Blueprint_Install.label>
+  <Canon_Flag_Texas_Frame.label>Texan Flag (building)</Canon_Flag_Texas_Frame.label>
+  <Canon_Flag_Texas_Frame.description>Shoutout to Ranger Rick.</Canon_Flag_Texas_Frame.description>
+  
+
+   <!-- Banner AB -->
+  <Canon_Flag_Byzantine.label>Byzantine Flag (Red)</Canon_Flag_Byzantine.label>
+  <Canon_Flag_Byzantine.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Byzantine.description>
+  <Canon_Flag_Byzantine_Blueprint.label>Byzantine Flag (blueprint)</Canon_Flag_Byzantine_Blueprint.label>
+  <Canon_Flag_Byzantine_Blueprint_Install.label>Byzantine Flag (blueprint)</Canon_Flag_Byzantine_Blueprint_Install.label>
+  <Canon_Flag_Byzantine_Frame.label>Byzantine Flag (building)</Canon_Flag_Byzantine_Frame.label>
+  <Canon_Flag_Byzantine_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Byzantine_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Byzantine_ALT.label>Byzantine Flag (Purple)</Canon_Flag_Byzantine_ALT.label>
+  <Canon_Flag_Byzantine_ALT.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Byzantine_ALT.description>
+  <Canon_Flag_Byzantine_ALT_Blueprint.label>Byzantine Flag (blueprint)</Canon_Flag_Byzantine_ALT_Blueprint.label>
+  <Canon_Flag_Byzantine_ALT_Blueprint_Install.label>Byzantine Flag (blueprint)</Canon_Flag_Byzantine_ALT_Blueprint_Install.label>
+  <Canon_Flag_Byzantine_ALT_Frame.label>Byzantine Flag (building)</Canon_Flag_Byzantine_ALT_Frame.label>
+  <Canon_Flag_Byzantine_ALT_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Byzantine_ALT_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_StarsnBars.label>The Stars and Bars Flag</Canon_Flag_StarsnBars.label>
+  <Canon_Flag_StarsnBars.description>States Rights?, a states right to what?.</Canon_Flag_StarsnBars.description>
+  <Canon_Flag_StarsnBars_Blueprint.label>The Stars and Bars Flag (blueprint)</Canon_Flag_StarsnBars_Blueprint.label>
+  <Canon_Flag_StarsnBars_Blueprint_Install.label>The Stars and Bars Flag (blueprint)</Canon_Flag_StarsnBars_Blueprint_Install.label>
+  <Canon_Flag_StarsnBars_Frame.label>The Stars and Bars Flag (building)</Canon_Flag_StarsnBars_Frame.label>
+  <Canon_Flag_StarsnBars_Frame.description>States Rights?, a states right to what?.</Canon_Flag_StarsnBars_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Japan.label>Japanese Flag</Canon_Flag_Japan.label>
+  <Canon_Flag_Japan.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Japan.description>
+  <Canon_Flag_Japan_Blueprint.label>Japanese Flag (blueprint)</Canon_Flag_Japan_Blueprint.label>
+  <Canon_Flag_Japan_Blueprint_Install.label>Japanese Flag (blueprint)</Canon_Flag_Japan_Blueprint_Install.label>
+  <Canon_Flag_Japan_Frame.label>Japanese Flag (building)</Canon_Flag_Japan_Frame.label>
+  <Canon_Flag_Japan_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Japan_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Britannia.label>Britannian Flag</Canon_Flag_Britannia.label>
+  <Canon_Flag_Britannia.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Britannia.description>
+  <Canon_Flag_Britannia_Blueprint.label>Britannian Flag (blueprint)</Canon_Flag_Britannia_Blueprint.label>
+  <Canon_Flag_Britannia_Blueprint_Install.label>Britannian Flag (blueprint)</Canon_Flag_Britannia_Blueprint_Install.label>
+  <Canon_Flag_Britannia_Frame.label>Britannian Flag (building)</Canon_Flag_Britannia_Frame.label>
+  <Canon_Flag_Britannia_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Britannia_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Aldmeri.label>Aldmeri Flag</Canon_Flag_Aldmeri.label>
+  <Canon_Flag_Aldmeri.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Aldmeri.description>
+  <Canon_Flag_Aldmeri_Blueprint.label>Aldmeri Flag (blueprint)</Canon_Flag_Aldmeri_Blueprint.label>
+  <Canon_Flag_Aldmeri_Blueprint_Install.label>Aldmeri Flag (blueprint)</Canon_Flag_Aldmeri_Blueprint_Install.label>
+  <Canon_Flag_Aldmeri_Frame.label>Aldmeri Flag (building)</Canon_Flag_Aldmeri_Frame.label>
+  <Canon_Flag_Aldmeri_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Aldmeri_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_UN.label>UN Flag</Canon_Flag_UN.label>
+  <Canon_Flag_UN.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_UN.description>
+  <Canon_Flag_UN_Blueprint.label>UN Flag (blueprint)</Canon_Flag_UN_Blueprint.label>
+  <Canon_Flag_UN_Blueprint_Install.label>UN Flag (blueprint)</Canon_Flag_UN_Blueprint_Install.label>
+  <Canon_Flag_UN_Frame.label>UN Flag (building)</Canon_Flag_UN_Frame.label>
+  <Canon_Flag_UN_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_UN_Frame.description>
+  
+   <!-- Banner AB -->
+  <Canon_Flag_Eldia.label>Eldian Flag</Canon_Flag_Eldia.label>
+  <Canon_Flag_Eldia.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Eldia.description>
+  <Canon_Flag_Eldia_Blueprint.label>Eldian Flag (blueprint)</Canon_Flag_Eldia_Blueprint.label>
+  <Canon_Flag_Eldia_Blueprint_Install.label>Eldian Flag (blueprint)</Canon_Flag_Eldia_Blueprint_Install.label>
+  <Canon_Flag_Eldia_Frame.label>Eldian Flag (building)</Canon_Flag_Eldia_Frame.label>
+  <Canon_Flag_Eldia_Frame.description>A high Flag, symbol of your ambitions and sovereignty.</Canon_Flag_Eldia_Frame.description>
+  
+  
+
+
+
+  
+  
+</LanguageData>

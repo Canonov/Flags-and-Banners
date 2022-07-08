@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============================================================================= -->
+  <!-- BASE ALL BANNERS -->
+  <!-- ============================================================================= -->
+  <ThingDef Abstract="True" Name="CanonBannerBase" ParentName="BuildingBase">
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <constructEffect>ConstructMetal</constructEffect>
+    <category>Building</category>
+    <altitudeLayer>Blueprint</altitudeLayer>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <designationCategory>Furniture</designationCategory>
+    <!--<placeWorkers>
+		<li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>-->
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <!--<building>
+		<isEdifice>true</isEdifice>
+    </building>
+	<clearBuildingArea>true</clearBuildingArea>-->
+    <researchPrerequisites>
+      <li>CarpetMaking</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+  <!-- ============================================================================= -->
+  <!-- BASE Banner A (High Banners) -->
+  <!-- ============================================================================= -->
+  <ThingDef Abstract="True" Name="CanonBannerBaseA" ParentName="CanonBannerBase">
+    <description>A high Banner, symbol of your ambitions and sovereignty.</description>
+    <designatorDropdown>CanonBannerBaseA</designatorDropdown>
+    <thingClass>Building</thingClass>
+    <costList>
+      <Steel>55</Steel>
+      <Cloth>15</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <!--<MarketValue>38</MarketValue>-->
+      <Mass>17.5</Mass>
+      <Beauty>25</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+  </ThingDef>
+  
+  <!-- Banner Russian Empire (COA) -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Rus_Imperial_COA</defName>
+    <label>Russian Imperial Banner (COA)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/RUS_Imperial_Banner_1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/RUS_Imperial_Banner_1_Icon</uiIconPath>
+  </ThingDef>
+
+  <!-- Banner Assassins (LAB) -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Levantine</defName>
+    <label>Levantine Assassins Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Levantine_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Levantine_Banner_Icon</uiIconPath>
+  </ThingDef>
+
+  <!-- Banner Canada -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Canada</defName>
+    <label>Canadian Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Canada_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Canada_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner Poland -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Poland</defName>
+    <label>Polish Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/POL_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/POL_Banner_Icon</uiIconPath>
+  </ThingDef>
+ 
+   <!-- Banner Poland Alt -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Poland_Alt</defName>
+    <label>Polish Banner (ALT)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/POL_Banner_Alt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/POL_Banner_Alt_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner PR China -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_PRC</defName>
+    <label>Chinese Banner (PRC)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Chinese_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Chinese_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner European Union -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_EU</defName>
+    <label>European Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/EU_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/EU_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Reman -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Reman</defName>
+    <label>Cyrodiil Banner (Reman)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/TES_Reman_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/TES_Reman_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Septim -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Tamriel</defName>
+    <label>Tamrielic Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/TES_Septim_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/TES_Septim_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Germany -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_German</defName>
+    <label>German Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/German_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/German_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Germany_CoA -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_German_COA</defName>
+    <label>German Banner (COA)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/German_Banner_COA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/German_Banner_COA_Icon</uiIconPath>
+  </ThingDef>
+
+    <!-- Banner Germany Empire -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_German_Empire</defName>
+    <label>German Imperial Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/IGerman_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/IGerman_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Germany Commie -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_East_Germany</defName>
+    <label>East German Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/East_German_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/East_German_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Pirate -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Pirate</defName>
+    <label>Pirate Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Pirate_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Pirate_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner USSR -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_USSR</defName>
+    <label>Soviet Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/USSR_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/USSR_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Texas -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Texas</defName>
+    <label>Texan Banner</label>
+    <description>Shoutout to ranger rick.</description>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Texas_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Texas_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+  
+    <!-- Banner Eldia -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Eldia</defName>
+    <label>Eldian Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Eldia_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Eldia_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner CSA -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_StarsnBars</defName>
+    <label>Stars and Bars Banner (Confederate) </label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/StarsnBars_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/StarsnBars_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Japan -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Japan</defName>
+    <label>Japanese Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Japan_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Japan_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner UN -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_UN</defName>
+    <label>United Nations Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/UN_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/UN_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Britannia -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Britannia</defName>
+    <label>Holy Britannian Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Britannia_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Britannia_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Byzantine Red -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Byzantine</defName>
+    <label>Byzantine Banner (Red)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Byzantine_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Byzantine_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Byzantine Purple -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Byzantine_ALT</defName>
+    <label>Byzantine Banner (Purple)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Byzantine_Banner_ALT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Byzantine_Banner_ALT_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner Russian Empire (Late) -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Rus_Imperial_Early</defName>
+    <label>Russian Imperial Flag (1858-1896)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/RUS_Imperial_Banner_1858</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/RUS_Imperial_Banner_1858_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Anarchy -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Anarchy</defName>
+    <label>Anarchist Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Anarchy_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Anarchy_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Ancap -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Ancap</defName>
+    <label>Anarcho-Capitalist Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Ancap_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Ancap_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Anprim -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_Anprim</defName>
+    <label>Anarcho-Primitivist Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/Anprim_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/Anprim_Banner_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner DPRK -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_DPRK</defName>
+    <label>North Korean Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/DPRK_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/DPRK_Banner_Icon</uiIconPath>
+  </ThingDef>
+
+    <!-- Banner HRE -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_HRE</defName>
+    <label>Holy Roman Empire Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/HRE_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/HRE_Banner_Icon</uiIconPath>
+  </ThingDef>
+
+    <!-- Banner HRE FRENCH -->
+  <ThingDef ParentName="CanonBannerBaseA">
+    <defName>Canon_Banner_HRE_FR</defName>
+    <label>Holy Roman Empire Banner (Frankish)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Banners/HRE_Frankish_Banner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Banners/HRE_Frankish_Banner_Icon</uiIconPath>
+  </ThingDef>
+
+  <!-- ============================================================================= -->
+  <!-- BASE Banner B (High Flags) -->
+  <!-- ============================================================================= -->
+  <ThingDef Abstract="True" Name="CanonBannerBaseB" ParentName="CanonBannerBase">
+    <description>A High Flag, marking your territory.</description>
+    <designatorDropdown>CanonBannerBaseB</designatorDropdown>
+    <thingClass>Building</thingClass>
+    <costList>
+      <Steel>55</Steel>
+      <Cloth>5</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <!--<MarketValue>23</MarketValue>-->
+      <Mass>7.5</Mass>
+      <Beauty>25</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+  </ThingDef>
+
+  <!-- Banner Canada -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Canada</defName>
+    <label>Canadian Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Canada_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags /Canada_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner DPRK -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_DPRK</defName>
+    <label>North Korean Banner</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/DPRK_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/DPRK_Flag_Icon</uiIconPath>
+  </ThingDef>
+
+    <!-- Banner HRE -->
+    <ThingDef ParentName="CanonBannerBaseB">
+      <defName>Canon_Flag_HRE</defName>
+      <label>Holy Roman Empire Flag</label>
+      <graphicData>
+        <texPath>Canon-Flags/Flags/HRE_Flag</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(5,5)</drawSize>
+      </graphicData>
+      <uiIconPath>Canon-Flags/Flags/HRE_Flag_Icon</uiIconPath>
+    </ThingDef>
+  
+      <!-- Banner HRE FRENCH -->
+    <ThingDef ParentName="CanonBannerBaseB">
+      <defName>Canon_Flag_HRE_FR</defName>
+      <label>Holy Roman Empire Flag (Frankish)</label>
+      <graphicData>
+        <texPath>Canon-Flags/Flags/HRE_Frankish_Flag</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(5,5)</drawSize>
+      </graphicData>
+      <uiIconPath>Canon-Flags/Flags/HRE_Frankish_Flag_Icon</uiIconPath>
+    </ThingDef>
+  
+    <!-- Banner Anarchy -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Anarchy</defName>
+    <label>Anarchist Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Anarchy_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Anarchy_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Ancap -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Ancap</defName>
+    <label>Anarcho-Capitalist Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Ancap_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Ancap_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Anprim -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Anprim</defName>
+    <label>Anarcho-Primitivist Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Anprim_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Anprim_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Russian Empire (COA) -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Rus_Imperial_COA</defName>
+    <label>Russian Imperial Flag (COA)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/RUS_Imperial_Flag_1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/RUS_Imperial_Flag_1_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner Russian Empire (Late) -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Rus_Imperial_Late</defName>
+    <label>Russian Imperial Flag (1914-1917)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/RUS_Imperial_Flag_2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/RUS_Imperial_Flag_2_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner Russian Empire (Late) -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Rus_Imperial_Early</defName>
+    <label>Russian Imperial Flag (1858-1896)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/RUS_Imperial_Flag_1858</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/RUS_Imperial_Flag_1858_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner Poland -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Poland</defName>
+    <label>Polish Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/POL_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/POL_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner PR China -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_PRC</defName>
+    <label>Chinese Flag (PRC)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Chinese_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Chinese_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+   <!-- Banner European Union -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_EU</defName>
+    <label>European Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/EU_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/EU_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Reman -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Reman</defName>
+    <label>Cyrodiil Flag (Reman)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/TES_Reman_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/TES_Reman_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Septim -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Tamriel</defName>
+    <label>Tamrielic Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/TES_Septim_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/TES_Septim_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Germany -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Germany</defName>
+    <label>German Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/German_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/German_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Germany_CoA -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Germany_COA</defName>
+    <label>German Flag (COA)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/German_Flag_COA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/German_Flag_COA_Icon</uiIconPath>
+  </ThingDef>
+
+    <!-- Banner Germany Empire -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_German_Empire</defName>
+    <label>German Imperial Flag (Civil)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/IGerman_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/IGerman_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Germany Commie -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_East_Germany</defName>
+    <label>East German Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/East_German_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/East_German_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Pirate -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Pirate</defName>
+    <label>Pirate Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Pirate_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Pirate_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner USSR -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_USSR</defName>
+    <label>Soviet Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/USSR_flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/USSR_flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Texas -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Texas</defName>
+    <label>Texan Flag</label>
+    <description>An old flag of the Brotherhood of Steel, wearing the scars of past battles.</description>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Texas_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Texas_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+  
+    <!-- Banner Eldia -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Eldia</defName>
+    <label>Eldian Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Eldia_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Eldia_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner CSA -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_StarsnBars</defName>
+    <label>Stars and Bars Flag (Confederate) </label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/StarsnBars_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/StarsnBars_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Japan -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Japan</defName>
+    <label>Japanese Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Japan_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Japan_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner UN -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_UN</defName>
+    <label>United Nations Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/UN_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/UN_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Britannia -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Britannia</defName>
+    <label>Holy Britannian Flag</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Britannia_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Britannia_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Byzantine Red -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Byzantine</defName>
+    <label>Byzantine Flag (Red)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Byzantine_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Byzantine_Flag_Icon</uiIconPath>
+  </ThingDef>
+  
+    <!-- Banner Byzantine Purple -->
+  <ThingDef ParentName="CanonBannerBaseB">
+    <defName>Canon_Flag_Byzantine_ALT</defName>
+    <label>Byzantine Flag (Purple)</label>
+    <graphicData>
+      <texPath>Canon-Flags/Flags/Byzantine_Flag_ALT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Canon-Flags/Flags/Byzantine_Flag_ALT_Icon</uiIconPath>
+  </ThingDef>
+  
+  
+  
+  
+  
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Banner A (High Banners) -->
+  <DesignatorDropdownGroupDef>
+    <defName>CanonBannerBaseA</defName>
+  </DesignatorDropdownGroupDef>
+  <!-- Banner B (High Flags) -->
+  <DesignatorDropdownGroupDef>
+    <defName>CanonBannerBaseB</defName>
+  </DesignatorDropdownGroupDef>
+</Defs>
