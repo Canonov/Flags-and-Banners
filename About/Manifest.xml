@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Manifest>
-  <identifier>FlagsAndBanners_expansion</identifier>
-  <version>1.1</version>
-  <dependencies />
-  <incompatibleWith />
-  <loadBefore />
-  <loadAfter />
-</Manifest>

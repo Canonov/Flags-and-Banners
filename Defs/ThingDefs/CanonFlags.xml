@@ -447,7 +447,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(5,5)</drawSize>
     </graphicData>
-    <uiIconPath>Canon-Flags/Flags /Canada_Flag_Icon</uiIconPath>
+    <uiIconPath>Canon-Flags/Flags/Canada_Flag_Icon</uiIconPath>
   </ThingDef>
   
     <!-- Banner DPRK -->
